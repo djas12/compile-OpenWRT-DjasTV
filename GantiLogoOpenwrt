@@ -1,0 +1,4 @@
+Ganti baris 220 dengan ini :
+<a id="logo" href="<% if luci.dispatcher.context.authsession then %><%=url('admin/status/overview')%><% else %>#<% end %>"><img src="<%=media%>/djastv.png" alt="OpenWrt"></a>
+
+Dan upload file png dengan nama djastv.png ke : /www/luci-static/material
